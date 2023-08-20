@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'RefSystem.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'HOQD5WCh6bbiAh42r7eu',
+        'HOST': 'containers-us-west-32.railway.app',
+        'PORT': '7565',
     }
 }
 

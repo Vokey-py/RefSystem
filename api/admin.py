@@ -29,4 +29,3 @@ class CustomUserAdmin(UserAdmin):
 
 admin.site.register(CustomUser, CustomUserAdmin)
 admin.site.register(InvitationCode, InvitationCodeAdmin)
-# Register your models here.
